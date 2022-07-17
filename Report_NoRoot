@@ -1,3 +1,5 @@
+rm -rf /storage/emulated/0/Kgo-Yt/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/{Avatar,ImageDownload,Logs,MMKV,PufferTmpDir,RoleInfo,TableDatas,UpdateInfo,Demos,PufferEifs0,PufferEifs1,GameErrorNoRecords,StatEventReportedFlag,LightData}
+touch /storage/emulated/0/Kgo-Yt/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/{Logs,MMKV,RoleInfo,TableDatas,UpdateInfo,Demos,PufferEifs0,PufferEifs1,LightData}
 rm -rf /storage/emulated/0/BGMI/BMI
 touch /storage/emulated/0/BGMI/BMI
 rm -rf /storage/emulated/0/pue*
