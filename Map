@@ -1,0 +1,8 @@
+#mainpubg
+rm -rf /storage/emulated/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/{map_brtdm_2.1.0.16490.pak,map_egypt2_2.1.0.16490.pak}
+#bluebox
+rm -rf /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/{map_brtdm_2.1.0.16490.pak,map_egypt2_2.1.0.16490.pak}
+#greenbox
+rm -rf /storage/emulated/0/Kgo-Yt/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/{map_brtdm_2.1.0.16490.pak,map_egypt2_2.1.0.16490.pak}
+#octopus
+rm -rf /storage/emulated/0/Android/data/com.tencent.kgo/files/Kgo-com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/{map_brtdm_2.1.0.16490.pak,map_egypt2_2.1.0.16490.pak}
