@@ -1,5 +1,7 @@
 rm -rf /storage/emulated/0/Kgo-Yt/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/{Avatar,ImageDownload,Logs,MMKV,PufferTmpDir,RoleInfo,TableDatas,UpdateInfo,Demos,PufferEifs0,PufferEifs1,GameErrorNoRecords,StatEventReportedFlag,LightData}
 touch /storage/emulated/0/Kgo-Yt/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/{Logs,MMKV,RoleInfo,TableDatas,UpdateInfo,Demos,PufferEifs0,PufferEifs1,LightData}
+rm -rf /storage/emulated/0/Kgo-Yt/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/{res_pufferpatch_*,puffer_temp,*_cures.ifs.cures,apollo_reslist.flistnewlist,*_cures.ifs,new.filelist,*_cures.ifs.res,apollo_reslist.flist,filelist.json,PufferFileListAddtional.json}
+rm -rf /storage/emulated/0/Kgo-Yt/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/{Activity,Arena,Commercial,Chat,Friend,PersonSpace,Rp,Store,Task,Download,GEM,https*,Loading,Lobby,LobbyBubble,Login,Match,Notice,Pet,PufferDownload,RoleInfo,Season,Setting,SocialIsland,Tables,UnknowPass,Wardrobe,XMission,loginInfoFile.json,MailPhoneLogin.json,BP_BuffGuid_Save.sav,BP_WeakGuidSave.sav,ChoosingZoneId.sav,iTOPPrefs.sav,playerprefs*,BillboardSlapData*,personalprefs*,RecruitFilterSetting*,CommonSaveGame*,SyncMatchAndChatLanguage*,MiscInfo.sav,NewPlayerprefsSwitcher.json,LoginBackUp,VideoPlayCount_0.json}
 rm -rf /storage/emulated/0/BGMI/BMI
 touch /storage/emulated/0/BGMI/BMI
 rm -rf /storage/emulated/0/pue*
