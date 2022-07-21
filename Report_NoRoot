@@ -1,21 +1,21 @@
 rm -rf /storage/emulated/0/BGMI/BMI
 touch /storage/emulated/0/BGMI/BMI
-rm -rf /storage/emulated/0/vSdcard/BGMI
+rm -rf /storage/emulated/0/PFC/BGMI
 rm -rf /storage/emulated/0/Kgo-Yt/BGMI
 rm -rf /storage/emulated/0/pue*
-rm -rf /storage/emulated/0/vSdcard/pue*
+rm -rf /storage/emulated/0/PFC/pue*
 rm -rf /storage/emulated/0/Kgo-Yt/puex*
 rm -rf /storage/emulated/0/ASD
 touch /storage/emulated/0/ASD
-rm -rf /storage/emulated/0/vSdcard/ASD
+rm -rf /storage/emulated/0/PFC/ASD
 rm -rf /storage/emulated/0/Kgo-Yt/ASD
 touch /storage/emulated/0/Kgo-Yt/{.android3,ASD,BGMI}
-touch /storage/emulated/0/vSdcard/{.android3,ASD,BGMI}
+touch /storage/emulated/0/PFC/{.android3,ASD,BGMI}
 mkdir /storage/emulated/0/Kgo-Yt/{puex_56b8e028.dat,puex_56b8e028.dat.tmp}
-mkdir /storage/emulated/0/vSdcard/{puex_56b8e028.dat,puex_56b8e028.dat.tmp}
+mkdir /storage/emulated/0/PFC/{puex_56b8e028.dat,puex_56b8e028.dat.tmp}
 mkdir /storage/emulated/0/{puex_56b8e028.dat,puex_56b8e028.dat.tmp}
 rm -rf /storage/emulated/0/.backups/com.pubg.imobile
-rm -rf /storage/emulated/0/vSdcard/.backups/com.pubg.imobile
+rm -rf /storage/emulated/0/PFC/.backups/com.pubg.imobile
 rm -rf /storage/emulated/0/Kgo-Yt/.backups/com.pubg.imobile
 rm -rf /storage/emulated/0/Kgo-Yt/Android/data/com.pubg.imobile/{cache,prex_8bfb7f0a.dat,prex_b93e23f5.dat.tmp}
 touch /storage/emulated/0/Kgo-Yt/Android/data/com.pubg.imobile/cache
@@ -31,19 +31,19 @@ rm -rf /storage/emulated/0/Kgo-Yt/Android/data/com.pubg.imobile/files/UE4Game/Sh
 touch /storage/emulated/0/Kgo-Yt/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/{Demos,TableDatas,MMKV,Logs,UpdateInfo,PufferEifs0,PufferEifs1}
 rm -rf /storage/emulated/0/Kgo-Yt/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/{res_pufferpatch_*,puffer_temp,*_cures.ifs.cures,apollo_reslist.flistnewlist,*_cures.ifs,new.filelist,*_cures.ifs.res,apollo_reslist.flist,filelist.json,PufferFileListAddtional.json}
 #BlueBox
-rm -rf /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/{cache,prex_8bfb7f0a.dat,prex_b93e23f5.dat.tmp}
-touch /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/cache
-mkdir /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/{prex_8bfb7f0a.dat,prex_b93e23f5.dat.tmp}
-rm -rf /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/files/{TGPA,ca-bundle.pem,login-identifier.txt,vmpcloudconfig.json,.fff,tbslog,cacheFile.txt,hawk_data,ProgramBinaryCache}
-touch /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/files/ProgramBinaryCache
-rm -rf /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/{Engine,Epic*}
-rm -rf /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate
-touch /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate
-rm -rf /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/{Engine,Epic*}
-touch /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/Engine
-rm -rf /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/{Avatar,ImageDownload,Logs,MMKV,PufferTmpDir,RoleInfo,TableDatas,UpdateInfo,Demos,PufferEifs0,PufferEifs1,GameErrorNoRecords,StatEventReportedFlag}
-touch /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/{Demos,TableDatas,MMKV,Logs,UpdateInfo,PufferEifs0,PufferEifs1}
-rm -rf /storage/emulated/0/vSdcard/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/{res_pufferpatch_*,puffer_temp,*_cures.ifs.cures,apollo_reslist.flistnewlist,*_cures.ifs,new.filelist,*_cures.ifs.res,apollo_reslist.flist,filelist.json,PufferFileListAddtional.json}
+rm -rf /storage/emulated/0/PFC/Android/data/com.pubg.imobile/{cache,prex_8bfb7f0a.dat,prex_b93e23f5.dat.tmp}
+touch /storage/emulated/0/PFC/Android/data/com.pubg.imobile/cache
+mkdir /storage/emulated/0/PFC/Android/data/com.pubg.imobile/{prex_8bfb7f0a.dat,prex_b93e23f5.dat.tmp}
+rm -rf /storage/emulated/0/PFC/Android/data/com.pubg.imobile/files/{TGPA,ca-bundle.pem,login-identifier.txt,vmpcloudconfig.json,.fff,tbslog,cacheFile.txt,hawk_data,ProgramBinaryCache}
+touch /storage/emulated/0/PFC/Android/data/com.pubg.imobile/files/ProgramBinaryCache
+rm -rf /storage/emulated/0/PFC/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/{Engine,Epic*}
+rm -rf /storage/emulated/0/PFC/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate
+touch /storage/emulated/0/PFC/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate
+rm -rf /storage/emulated/0/PFC/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/{Engine,Epic*}
+touch /storage/emulated/0/PFC/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/Engine
+rm -rf /storage/emulated/0/PFC/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/{Avatar,ImageDownload,Logs,MMKV,PufferTmpDir,RoleInfo,TableDatas,UpdateInfo,Demos,PufferEifs0,PufferEifs1,GameErrorNoRecords,StatEventReportedFlag}
+touch /storage/emulated/0/PFC/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/{Demos,TableDatas,MMKV,Logs,UpdateInfo,PufferEifs0,PufferEifs1}
+rm -rf /storage/emulated/0/PFC/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/{res_pufferpatch_*,puffer_temp,*_cures.ifs.cures,apollo_reslist.flistnewlist,*_cures.ifs,new.filelist,*_cures.ifs.res,apollo_reslist.flist,filelist.json,PufferFileListAddtional.json}
 #octopus virtual
 rm -rf /storage/emulated/0/Android/data/com.tencent.kgo/files/Kgo-com.pubg.imobile/{cache,prex_8bfb7f0a.dat,prex_b93e23f5.dat.tmp}
 touch /storage/emulated/0/Android/data/com.tencent.kgo/files/Kgo-com.pubg.imobile/cache
