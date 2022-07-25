@@ -81,3 +81,28 @@ touch /storage/emulated/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrac
 mkdir /storage/emulated/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
 rm -rf /storage/emulated/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/{res_pufferpatch_*,puffer_temp,apollo_reslist.flistnewlist,*_cures.ifs,new.filelist,PufferFileListAddtional.json}
 rm -rf /storage/emulated/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/{Activity,Arena,Commercial,Chat,Friend,PersonSpace,Rp,Store,Task,Download,GEM,https*,Loading,Lobby,LobbyBubble,Login,Match,Notice,Pet,PufferDownload,RoleInfo,Season,Setting,SocialIsland,Tables,UnknowPass,Wardrobe,XMission,loginInfoFile.json,MailPhoneLogin.json,BP_BuffGuid_Save.sav,BP_WeakGuidSave.sav,ChoosingZoneId.sav,iTOPPrefs.sav,playerprefs*,BillboardSlapData*,personalprefs*,RecruitFilterSetting*,CommonSaveGame*,SyncMatchAndChatLanguage*}
+#ROOT directory Main
+rm -rf /data/user/0/com.pubg.imobile/{app_*,no_backup,cache,code_cache,files,shared_prefs}
+touch /data/user/0/com.pubg.imobile/{app_crashrecord,app_crashSight,app_webview,files,shared_prefs}
+rm -rf /data/user/0/com.pubg.imobile/databases/*-journal
+chmod 000 /data/user/0/com.pubg.imobile/databases/*
+chmod 777 /data/user/0/com.pubg.imobile/databases/iMSDK.db
+chmod 550 /data/user/0/com.pubg.imobile/databases
+chmod 000 /data/user/0/com.pubg.imobile/{app_crashrecord,app_crashSight,app_webview,files,shared_prefs}
+#GREEN BOX BLUE BOX ANDROID 10 VIRTUAL
+rm -rf /data/user/0/com.pubg.imobile64/data/user/0/com.pubg.imobile/{app_*,no_backup,cache,code_cache,files,shared_prefs}
+touch /data/user/0/com.pubg.imobile64/data/user/0/com.pubg.imobile/{app_crashrecord,app_crashSight,app_webview,files,shared_prefs}
+rm -rf /data/user/0/com.pubg.imobile64/data/user/0/com.pubg.imobile/databases/*-journal
+chmod 000 /data/user/0/com.pubg.imobile64/data/user/0/com.pubg.imobile/databases/*
+chmod 777 /data/user/0/com.pubg.imobile64/data/user/0/com.pubg.imobile/databases/iMSDK.db
+chmod 550 /data/user/0/com.pubg.imobile64/data/user/0/com.pubg.imobile/databases
+chmod 000 /data/user/0/com.pubg.imobile64/data/user/0/com.pubg.imobile/{app_crashrecord,app_crashSight,app_webview,files,shared_prefs}
+#OCTOPUS VIRTUAL
+rm -rf /data/data/com.tencent.kgo/data/user/0/com.pubg.imobile/{app_*,no_backup,cache,code_cache,files,shared_prefs}
+touch /data/data/com.tencent.kgo/data/user/0/com.pubg.imobile/{app_crashrecord,app_crashSight,app_webview,files,shared_prefs}
+rm -rf /data/data/com.tencent.kgo/data/user/0/com.pubg.imobile/databases/*-journal
+chmod 000 /data/data/com.tencent.kgo/data/user/0/com.pubg.imobile/databases/*
+chmod 777 /data/data/com.tencent.kgo/data/user/0/com.pubg.imobile/databases/iMSDK.db
+chmod 550 /data/data/com.tencent.kgo/data/user/0/com.pubg.imobile/databases
+chmod 000 /data/data/com.tencent.kgo/data/user/0/com.pubg.imobile/{app_crashrecord,app_crashSight,app_webview,files,shared_prefs}
+
